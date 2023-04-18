@@ -1,97 +1,91 @@
 {
-  "liveServer.settings.CustomBrowser": "chrome",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.useLocalIp": true,
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 600,
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.linkedEditing": true,
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.wait": 10,
-  "liveServer.settings.fullReload": true,
-  "workbench.editor.enablePreview": false,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "bracketPairColorizer.depreciation-notice": false,
-  "vsicons.dontShowNewVersionMessage": true,
-  "workbench.editorAssociations": {
-    "*.mp3": "default"
-  },
-  "explorer.confirmDelete": false,
-  "sync.gist": "775fb6aab4fbc8406a08b6f3c1cf4228",
-  "intelephense.phpdoc.propertyTemplate": {
-    "summary": "$1",
-    "tags": ["@var ${1:$SYMBOL_TYPE}"]
-  },
-  "editor.wordWrap": "on",
-  "editor.wordWrapColumn": 100,
-  "editor.lineHeight": 30,
-  "editor.letterSpacing": 0.5,
-  "powermode.enabled": true,
-  "powermode.explosions.offset": 0.2,
-  "powermode.explosions.size": 5,
-  "powermode.shake.intensity": 5,
-  "powermode.shake.enabled": false,
-  "powermode.combo.location": "off",
-  "emmet.triggerExpansionOnTab": true,
-  "workbench.startupEditor": "none",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.suggest.preview": true,
-  "javascript.inlayHints.parameterNames.enabled": "all",
-  "typescript.inlayHints.parameterNames.enabled": "all",
-  "[html]": {
-    "editor.matchBrackets": "never",
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.matchBrackets": "never",
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.matchBrackets": "never",
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.guides.bracketPairs": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.fontWeight": "normal",
-  "editor.fontFamily": "SF Mono, Consolas, 'Courier New', FiraCode NFM",
-  "diffEditor.wordWrap": "on",
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontSize": 12,
-  "terminal.integrated.fontFamily": "'MesloLGM NF'",
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell",
-      "args": ["-NoLogo"]
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.useLocalIp": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 600,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.linkedEditing": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.wait": 10,
+    "liveServer.settings.fullReload": true,
+    "workbench.editor.enablePreview": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.editorAssociations": {
+        "*.mp3": "default"
     },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd"
+    "explorer.confirmDelete": false,
+    "sync.gist": "775fb6aab4fbc8406a08b6f3c1cf4228",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 100,
+    "editor.lineHeight": 30,
+    "editor.letterSpacing": 0.5,
+    "powermode.enabled": true,
+    "powermode.explosions.offset": 0.2,
+    "powermode.explosions.size": 5,
+    "powermode.shake.intensity": 5,
+    "powermode.shake.enabled": false,
+    "powermode.combo.location": "off",
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.startupEditor": "none",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.suggest.preview": true,
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "[html]": {
+        "editor.matchBrackets": "never",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "Git Bash": {
-      "source": "Git Bash"
+    "[css]": {
+        "editor.matchBrackets": "never",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "Windows PowerShell": {
-      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
-    }
-  },
-  "intelephense.files.associations": ["*.php", "*.phtml"],
-  "php.validate.enable": true,
-  "php.suggest.basic": false,
-  "code-runner.saveAllFilesBeforeRun": true,
-  "color-highlight.markerType": "underline",
-  "editor.accessibilitySupport": "off",
-  "workbench.colorTheme": "Evondev Dracula Night Contrast",
-  "code-runner.runInTerminal": true,
-  "editor.fontSize": 15
+    "[javascript]": {
+        "editor.matchBrackets": "never",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontWeight": "normal",
+    "editor.fontFamily": "SF Mono, Consolas, 'Courier New', FiraCode NFM",
+    "diffEditor.wordWrap": "on",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "'MesloLGM NF'",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": ["-NoLogo"]
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "php.validate.enable": true,
+    "php.suggest.basic": false,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "color-highlight.markerType": "underline",
+    "editor.accessibilitySupport": "off",
+    "workbench.colorTheme": "Evondev Dracula Night Contrast",
+    "code-runner.runInTerminal": true,
+    "prettier.tabWidth": 4,
+    "security.workspace.trust.untrustedFiles": "open"
 }
